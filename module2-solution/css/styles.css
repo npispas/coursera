@@ -58,6 +58,7 @@ h2#sushi-heading {
 
 /* Simple Responsive Framework. */
 .row {
+    margin-bottom: 16px;
     width: 100%;
 }
 
