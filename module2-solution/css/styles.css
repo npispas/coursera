@@ -56,9 +56,14 @@ h2#sushi-heading {
     background-color: #E5D198;
 }
 
+@media (max-width: 767px) {
+    section:last-child {
+        margin-bottom: 16px;
+    }
+}
+
 /* Simple Responsive Framework. */
 .row {
-    margin-bottom: 16px;
     width: 100%;
 }
 
