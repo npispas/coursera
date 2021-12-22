@@ -1,0 +1,107 @@
+/* Base styles */
+body {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    height: 1000px;
+}
+/* End of base styles */
+
+/* Header styles */
+#header-nav {
+    border: black solid 1px;
+    border-radius: 0;
+    background-color: grey;
+}
+
+#header-navbar {
+    padding: 15px;
+}
+
+.navbar-brand {
+    font-size: 1.8em;
+    margin: 0;
+    color: black;
+}
+
+.navbar-toggle, .icon-bar {
+    border: black solid 1px;
+    color: black;
+}
+
+.navbar-toggle:hover, .navbar-toggle:focus {
+    border: #DCDCDC solid 1px;
+    color: #DCDCDC;
+}
+
+.navbar-toggle:hover .icon-bar, .navbar-toggle:focus .icon-bar {
+    border: #DCDCDC solid 1px;
+    color: #DCDCDC;
+}
+
+#collapsable-nav {
+    background-color: #D6D6D6;
+    padding: 0;
+    border-top: black solid 1px;
+    color: black;
+}
+
+#collapsable-nav li a {
+    color: black;
+}
+
+#nav-list {
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    #collapsable-nav {
+        display: none !important;
+    }
+}
+/* End of header styles */
+
+/* Main content styles */
+#main-article {
+    padding: 0 15px 0;
+}
+
+#main-article h2 {
+    margin-top: 0;
+    vertical-align: middle;
+    margin-bottom: 20px;
+    font-size: 1.7em;
+}
+
+section div {
+    background-color: gray;
+    color: black;
+}
+
+section h3 {
+    font-size: 1.4em;
+    padding-top: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+section p {
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+section a {
+    text-decoration: underline;
+    color: #145894;
+}
+/* End of main content styles */
+
+/* Bootstrap css override */
+.divider {
+    height: 1px;
+    overflow: hidden;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+/* End of boostrap css override */
